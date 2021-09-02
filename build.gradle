@@ -9,4 +9,8 @@ repositories {
     mavenCentral()
 }
 
-dependencies {}
+dependencies {
+    String guava_version = "30.1.1"
+    implementation "com.google.guava:guava:${guava_version}-jre"
+    // compile "com.google.guava:guava:${guava_version}-jre"
+}
